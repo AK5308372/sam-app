@@ -1,0 +1,7 @@
+cd ~/environment/sam-app
+git init -b main
+echo -e "\n\n.aws-sam" >> .gitignore
+echo -e "samconfig.toml" >> .gitignore
+echo -e "target" >> .gitignore
+git add .
+git commit -m "Initial commit"
